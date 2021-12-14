@@ -1,0 +1,90 @@
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:ital@1&family=Source+Sans+3:ital,wght@1,300&display=swap');
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        header {
+            height: 10vh;
+            background-color: blue;
+        }
+        
+        li {
+            height: 9vh;
+            padding: 0% 30pt 0% 30px;
+            display: inline-flex;
+            justify-content: center;
+        }
+        
+        img {
+            width: 80px;
+            padding: 0% 30pt 0% 30px;
+            height: 7vh;
+        }
+        
+        a {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            text-decoration: none;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            transform: translate(10px, -15px);
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        nav ul li a:hover {
+            color: red;
+            font-weight: bold;
+        }
+        
+        .searchbar {
+            display: flex;
+            align-items: center;
+        }
+        
+        input {
+            width: 700px;
+            border-radius: 3px;
+            margin: 30px;
+        }
+        
+        .btn {
+            padding: 2px 2px;
+            color: white;
+            background-color: violet;
+            cursor: pointer;
+        }
+        
+        .container {
+            height: 86vh;
+        }
+        
+        .slider img {
+            transform: translate(500px, 80px);
+            width: 200px;
+            height: 200px;
+        }
+        
+        .slider {
+            width: 80vw;
+        }
+        
+        .card {
+            max-width: 91vw;
+            margin: 30px 47px;
+        }
+        
+        footer {
+            height: 5vh;
+            background-color: blue;
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
